@@ -165,14 +165,12 @@ a:hover {
 @media (max-width: 600px) {
     .nav-bar,
     .nav-bar li,
-    #menu {
+    #menu,
+    #current,
+    #events {
         display: none;
     }
 
-    .logo {
-        position: relative;
-        margin: 0 50% 0 50%;
-    }
 }
 
 
