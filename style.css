@@ -10,6 +10,10 @@ body {
     overflow-x: hidden;
 }
 
+.logo {
+    position: fixed;
+}
+
 a {
     color: #d4508e;
 }
@@ -156,6 +160,19 @@ a:hover {
 
 #menu li a:hover {
     color: #CC2C21;
+}
+
+@media (max-width: 600px) {
+    .nav-bar,
+    .nav-bar li,
+    #menu {
+        display: none;
+    }
+
+    .logo {
+        position: relative;
+        margin: 0 50% 0 50%;
+    }
 }
 
 
